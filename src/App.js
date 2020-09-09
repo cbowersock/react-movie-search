@@ -1,10 +1,15 @@
 import React from 'react';
 
+import SearchMovies from './components/SearchMovies'
+
 
 class App extends React.Component {
     render() {
       return (
-        <h1>Movie Search API</h1>
+          <div className="container">
+            <h1 className="title">Movie Searcher</h1>
+            <SearchMovies/>
+          </div>
       );
     }
   }
